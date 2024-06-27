@@ -72,3 +72,7 @@ code {
   width: 500px;
   border: 5px solid #19647e;
 }
+
+.skills img {
+  width: 150px;
+}

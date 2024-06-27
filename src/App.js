@@ -1,6 +1,9 @@
-import heroImage from "./fox.jpeg";
-import mainLogo from "./raexune.png";
-import ramona from "./ramonafuchs.jpg";
+import heroImage from "./images/fox.jpeg";
+import mainLogo from "./images/raexune.png";
+import ramona from "./images/ramonafuchs.jpg";
+
+import Carousel from "./components/carousel.js";
+import Gallery from "./components/gallery.js";
 import './App.css';
 
 function App() {
@@ -8,6 +11,8 @@ function App() {
     <Navbar />
     <Hero />
     <About />
+    <Skills />
+    <Projects />
   </div>
 }
 
@@ -48,4 +53,18 @@ function About(){
   </div>
 }
 
+function Skills() {
+  return <div>
+          <h1 className="skills-heading">Skills</h1>
+          <Carousel />;
+        </div>
+}
+
+function Projects() {
+  return <Gallery />;
+}
+
+
 export default App;
+
+

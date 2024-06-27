@@ -1,0 +1,31 @@
+/* src/Gallery.css */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;      
+    gap: 30px;
+    padding: 10px;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 5px solid #19647e;
+    border
+}
+
+.legend {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
